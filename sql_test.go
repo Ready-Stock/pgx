@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/jackc/pgx"
+	"github.com/Ready-Stock/pgx"
 )
 
 func TestQueryArgs(t *testing.T) {

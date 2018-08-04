@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx"
+	"github.com/Ready-Stock/pgx"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/jackc/pgx"
+	"github.com/Ready-Stock/pgx"
 )
 
 func TestLargeObjects(t *testing.T) {

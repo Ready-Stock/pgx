@@ -81,8 +81,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/jackc/pgx"
-	"github.com/jackc/pgx/pgtype"
+	"github.com/Ready-Stock/pgx"
+	"github.com/Ready-Stock/pgx/pgtype"
 )
 
 // oids that map to intrinsic database/sql types. These will be allowed to be

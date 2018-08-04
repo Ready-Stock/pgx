@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx"
-	"github.com/jackc/pgx/pgmock"
-	"github.com/jackc/pgx/pgproto3"
-	"github.com/jackc/pgx/stdlib"
+	"github.com/Ready-Stock/pgx"
+	"github.com/Ready-Stock/pgx/pgmock"
+	"github.com/Ready-Stock/pgx/pgproto3"
+	"github.com/Ready-Stock/pgx/stdlib"
 )
 
 func closeDB(t *testing.T, db *sql.DB) {

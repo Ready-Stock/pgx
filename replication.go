@@ -1,4 +1,4 @@
-package pgx
+Ready-Stockpackage pgx
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/jackc/pgx/pgio"
-	"github.com/jackc/pgx/pgproto3"
+	"github.com/Ready-Stock/pgx/pgio"
+	"github.com/Ready-Stock/pgx/pgproto3"
 )
 
 const (
