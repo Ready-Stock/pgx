@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/jackc/pgx/pgio"
+	"github.com/Ready-Stock/pgx/pgio"
 	"github.com/pkg/errors"
 )
 
