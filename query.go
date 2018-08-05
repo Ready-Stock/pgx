@@ -333,6 +333,10 @@ func (c *Conn) Query(sql string, args ...interface{}) (*Rows, error) {
 	return c.QueryEx(context.Background(), sql, nil, args...)
 }
 
+func (c *Conn) QueryRaw(sql string) ([]byte, error) {
+	return nil, nil
+}
+
 func (c *Conn) getRows(sql string, args []interface{}) *Rows {
 	if len(c.preallocatedRows) == 0 {
 		c.preallocatedRows = make([]Rows, 64)
