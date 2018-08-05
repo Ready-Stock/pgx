@@ -1,4 +1,4 @@
-Ready-Stockpackage pgx
+package pgx
 
 import (
 	"context"

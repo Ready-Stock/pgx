@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/jackc/pgx"
+	"github.com/Ready-Stock/pgx"
 	"os"
 	"strconv"
 )

@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/jackc/pgx/pgio"
+	"github.com/Ready-Stock/pgx/pgio"
 )
 
 type DataRow struct {

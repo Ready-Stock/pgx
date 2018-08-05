@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/jackc/pgx/pgio"
+	"github.com/Ready-Stock/pgx/pgio"
 )
 
 type Execute struct {
