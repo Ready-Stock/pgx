@@ -371,6 +371,11 @@ type QueryExOptions struct {
 	SimpleProtocol bool
 }
 
+func (c *Conn) QueryRaw(ctx context.Context, sql string, options *QueryExOptions) ([]FieldDescription, error) {
+	c.lastActivityTime = time.Now()
+
+}
+
 func (c *Conn) QueryEx(ctx context.Context, sql string, options *QueryExOptions, args ...interface{}) (rows *Rows, err error) {
 	c.lastActivityTime = time.Now()
 	rows = c.getRows(sql, args)
