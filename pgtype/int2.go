@@ -15,6 +15,10 @@ type Int2 struct {
 	Status Status
 }
 
+func (dst *Int2) GetInt() int64 {
+	return int64(dst.Int)
+}
+
 func (dst *Int2) Set(src interface{}) error {
 	if src == nil {
 		*dst = Int2{Status: Null}

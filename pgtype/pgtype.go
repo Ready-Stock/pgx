@@ -132,6 +132,16 @@ type TextEncoder interface {
 	EncodeText(ci *ConnInfo, buf []byte) (newBuf []byte, err error)
 }
 
+type Integer interface {
+	Value
+	GetInt() int64
+}
+
+type Float interface {
+	Value
+	GetFloat() float64
+}
+
 var errUndefined = errors.New("cannot encode status undefined")
 var errBadStatus = errors.New("invalid status")
 
