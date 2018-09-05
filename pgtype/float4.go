@@ -15,6 +15,10 @@ type Float4 struct {
 	Status Status
 }
 
+func (dst *Float4) GetFloat() float64 {
+	return float64(dst.Float)
+}
+
 func (dst *Float4) Set(src interface{}) error {
 	if src == nil {
 		*dst = Float4{Status: Null}

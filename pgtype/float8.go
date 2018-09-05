@@ -15,6 +15,10 @@ type Float8 struct {
 	Status Status
 }
 
+func (dst *Float8) GetFloat() float64 {
+	return float64(dst.Float)
+}
+
 func (dst *Float8) Set(src interface{}) error {
 	if src == nil {
 		*dst = Float8{Status: Null}
