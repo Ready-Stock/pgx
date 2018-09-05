@@ -71,7 +71,7 @@ func (src *UUID) AssignTo(dst interface{}) error {
 			copy(*v, src.Bytes[:])
 			return nil
 		case *string:
-			*v = encodeUUID(src.Bytes)
+			*v = EncodeUUID(src.Bytes)
 			return nil
 		default:
 			if nextDst, retry := GetAssignToDstType(v); retry {
@@ -98,7 +98,7 @@ func parseUUID(src string) (dst [16]byte, err error) {
 }
 
 // encodeUUID converts a uuid byte array to UUID standard string form.
-func encodeUUID(src [16]byte) string {
+func EncodeUUID(src [16]byte) string {
 	return fmt.Sprintf("%x-%x-%x-%x-%x", src[0:4], src[4:6], src[6:8], src[8:10], src[10:16])
 }
 
@@ -144,7 +144,7 @@ func (src *UUID) EncodeText(ci *ConnInfo, buf []byte) ([]byte, error) {
 		return nil, errUndefined
 	}
 
-	return append(buf, encodeUUID(src.Bytes)...), nil
+	return append(buf, EncodeUUID(src.Bytes)...), nil
 }
 
 func (src *UUID) EncodeBinary(ci *ConnInfo, buf []byte) ([]byte, error) {
