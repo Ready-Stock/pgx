@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Ready-Stock/pgx/pgtype"
-	"github.com/Ready-Stock/pgx/pgtype/testutil"
+	"github.com/readystock/pgx/pgtype"
+	"github.com/readystock/pgx/pgtype/testutil"
 )
 
 func TestInt2ArrayTranscode(t *testing.T) {

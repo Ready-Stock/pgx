@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/pgtype"
 )
 
 func TestParseUntypedTextArray(t *testing.T) {

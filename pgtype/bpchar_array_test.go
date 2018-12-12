@@ -3,8 +3,8 @@ package pgtype_test
 import (
 	"testing"
 
-	"github.com/Ready-Stock/pgx/pgtype"
-	"github.com/Ready-Stock/pgx/pgtype/testutil"
+	"github.com/readystock/pgx/pgtype"
+	"github.com/readystock/pgx/pgtype/testutil"
 )
 
 func TestBPCharArrayTranscode(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/Ready-Stock/pgx/pgio"
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/pgio"
+	"github.com/readystock/pgx/pgtype"
 	"github.com/pkg/errors"
 )
 

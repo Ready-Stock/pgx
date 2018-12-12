@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Ready-Stock/pgx/pgtype"
-	satori "github.com/Ready-Stock/pgx/pgtype/ext/satori-uuid"
-	"github.com/Ready-Stock/pgx/pgtype/testutil"
+	"github.com/readystock/pgx/pgtype"
+	satori "github.com/readystock/pgx/pgtype/ext/satori-uuid"
+	"github.com/readystock/pgx/pgtype/testutil"
 )
 
 func TestUUIDTranscode(t *testing.T) {

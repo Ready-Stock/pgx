@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Ready-Stock/pgx"
-	"github.com/Ready-Stock/pgx/pgtype"
-	_ "github.com/Ready-Stock/pgx/stdlib"
+	"github.com/readystock/pgx"
+	"github.com/readystock/pgx/pgtype"
+	_ "github.com/readystock/pgx/stdlib"
 	_ "github.com/lib/pq"
 )
 

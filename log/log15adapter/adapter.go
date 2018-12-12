@@ -3,7 +3,7 @@
 package log15adapter
 
 import (
-	"github.com/Ready-Stock/pgx"
+	"github.com/readystock/pgx"
 )
 
 // Log15Logger interface defines the subset of

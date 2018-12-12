@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ready-Stock/pgx/pgproto3"
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/pgproto3"
+	"github.com/readystock/pgx/pgtype"
 )
 
 type Server struct {

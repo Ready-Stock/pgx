@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/pgtype"
 	"github.com/shopspring/decimal"
 )
 

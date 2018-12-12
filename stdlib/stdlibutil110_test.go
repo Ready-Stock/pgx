@@ -6,8 +6,8 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/Ready-Stock/pgx"
-	"github.com/Ready-Stock/pgx/stdlib"
+	"github.com/readystock/pgx"
+	"github.com/readystock/pgx/stdlib"
 )
 
 func openDB(t *testing.T) *sql.DB {

@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ready-Stock/pgx/internal/sanitize"
-	"github.com/Ready-Stock/pgx/pgproto3"
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/internal/sanitize"
+	"github.com/readystock/pgx/pgproto3"
+	"github.com/readystock/pgx/pgtype"
 )
 
 // Row is a convenience wrapper over Rows that is returned by QueryRow.

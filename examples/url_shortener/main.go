@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Ready-Stock/pgx"
-	"github.com/Ready-Stock/pgx/log/log15adapter"
+	"github.com/readystock/pgx"
+	"github.com/readystock/pgx/log/log15adapter"
 	log "gopkg.in/inconshreveable/log15.v2"
 )
 

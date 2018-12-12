@@ -3,7 +3,7 @@ package pgproto3
 import (
 	"encoding/binary"
 
-	"github.com/Ready-Stock/pgx/pgio"
+	"github.com/readystock/pgx/pgio"
 	"github.com/pkg/errors"
 )
 

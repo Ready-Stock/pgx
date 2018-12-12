@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Ready-Stock/pgx/pgio"
-	"github.com/Ready-Stock/pgx/pgproto3"
+	"github.com/readystock/pgx/pgio"
+	"github.com/readystock/pgx/pgproto3"
 	"github.com/pkg/errors"
 )
 

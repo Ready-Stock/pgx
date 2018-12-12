@@ -2,7 +2,7 @@ package pgx_test
 
 import (
 	"testing"
-	"github.com/Ready-Stock/pgx"
+	"github.com/readystock/pgx"
 )
 
 var (

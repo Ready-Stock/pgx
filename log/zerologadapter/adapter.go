@@ -2,7 +2,7 @@
 package zerologadapter
 
 import (
-	"github.com/Ready-Stock/pgx"
+	"github.com/readystock/pgx"
 	"github.com/rs/zerolog"
 )
 

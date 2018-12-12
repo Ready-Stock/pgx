@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ready-Stock/pgx/pgtype"
+	"github.com/readystock/pgx/pgtype"
 	uuid "github.com/satori/go.uuid"
 )
 
